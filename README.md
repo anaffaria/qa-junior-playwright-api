@@ -7,9 +7,9 @@ Este repositório contém testes automatizados para o desafio Tagplus.
 Site: https://gorest.co.in/
 
 Teste os seguintes verbos e endpoints: GET/POST/PUT/DELETE
-  - /users
-  - /posts
-  - /comments
+  - /users ✅
+  - /posts ❌
+  - /comments ❌
 
 Valide status code, estrutura dos dados, e que o registro criado aparece no GET
 subsequente.
@@ -71,3 +71,8 @@ subsequente.
   ├── package-lock.json
   └── playwright.config.ts      # Configuração do Playwright 
   ```
+
+## Legenda
+✅ Concluído  
+❌ Não feito / precisa implementar
+🚧 Em andamento
