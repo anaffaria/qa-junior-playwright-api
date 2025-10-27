@@ -2,17 +2,17 @@
 
 Este repositório contém testes automatizados para o desafio Tagplus.
 
-## Parte 2 Testes de Front-End
+## Parte 1 - Testes de API (GoRest)
 
-Site: https://www.saucedemo.com/
+Site: https://gorest.co.in/
 
-Automatize os seguintes fluxos:
-  - Login com sucesso e com dados incorretos
-    - Validação: sistema logado com sucesso e mensagem com erro
-  - Remover produtos de dentro do carrinho
-    - Validação: Quantidade de itens que sobrou no carrinho
-  - Finalizar uma compra com 2 ou mais produtos
-    - Validação: mensagem Thank you for your order!
+Teste os seguintes verbos e endpoints: GET/POST/PUT/DELETE
+  - /users
+  - /posts
+  - /comments
+
+Valide status code, estrutura dos dados, e que o registro criado aparece no GET
+subsequente.
 
  # 🧪 Testes API com Playwright
 
