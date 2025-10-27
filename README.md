@@ -14,7 +14,7 @@ Teste os seguintes verbos e endpoints: GET/POST/PUT/DELETE
 Valide status code, estrutura dos dados, e que o registro criado aparece no GET
 subsequente.
 
- # 🧪 Testes API com Playwright
+ ## 🧪 Testes API com Playwright
 
  Este projeto utiliza o [Playwright](https://playwright.dev/) na versão `^1.56.1` para testes de API.
  
@@ -34,7 +34,7 @@ subsequente.
   npm install dotenv - carrega variaveis de ambiente através do arquivo .env
  ```
 
- 🔑 Pré-requisitos
+ ## 🔑 Pré-requisitos
   Criação de variavel de ambiente:
   
   Token de acesso
